@@ -9,6 +9,8 @@ df = read_csv("data/weatherAUS.csv")
 # Create a scatter plot of Humidity9am and Temp9am random change
 # a location
 
+# Some random comment change
+
 city = "Sydney"
 
 scatter_plot = 

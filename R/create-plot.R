@@ -16,7 +16,7 @@ city = "Sydney"
 scatter_plot = 
 df %>%
   filter(Location == city) %>%
-  ggplot(aes(x = Temp9am, y = Humidity9am)) + 
+  ggplot(aes(x = Temp9am, y = Humidity9am)) +
   geom_point(colour = "red") # ConflictBranch is red
 
 # Save the plot in graphics/
